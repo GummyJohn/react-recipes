@@ -8,7 +8,7 @@ const CategorySelect = () => {
   const [error, setError] = useState();
 
   useEffect(()=>{
-    fetch(`1https://www.themealdb.com/api/json/v1/1/filter.php?c=${id}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${id}`)
     .then(res => res.json())
     .then(data => {
       setMeals(data.meals)
