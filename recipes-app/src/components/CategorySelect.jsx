@@ -18,8 +18,6 @@ const CategorySelect = () => {
     })
   }, [id])
 
-  console.log(error)
-
   return (
     <>
       <h2 className='select'>Select a Meal!</h2>
